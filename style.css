@@ -1,0 +1,52 @@
+h1	{color: white;
+	font-family:'Poiret One', cursive;
+	font-weight: bold;
+}
+
+p{
+	text-align: center;
+}
+
+body{
+	font-weight: bold;
+	margin: 0;
+	} /* Write some CSS below */
+
+a{text-decoration: none;}
+
+.card-white {
+background-color: white;
+width: 250px;
+padding: 10px;
+margin: 16px auto;
+border-radius: 4px;
+box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.2)
+
+}
+
+.card-white img {
+	width: 250px;
+
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+}
+
+.banner{
+	background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url(LarsKunst/IMG_3035.JPG);
+	background-size: cover;
+	background-position: center; 
+	text-align: center;
+	padding: 100px;
+}
+
+.button {
+	background-color: #0C3E5C;
+	color: white;
+	padding: 24px;
+	margin:10px auto;
+	border-radius: 4px;
+	text-align: center;
+}
